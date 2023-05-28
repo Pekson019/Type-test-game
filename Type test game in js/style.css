@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: #001d3d;
+    color: #52b788;
+}
+.start {
+    margin-top: 5em;
+    text-align: center;
+}
+.start-game {
+    outline: none;
+    border: none;
+    padding: 1.5em 4em;
+    background-color: #001d3d;
+    color: #52b788;
+    border: 2px solid #52b788;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.game {
+    display: none;
+    text-align: center;
+    margin-top: 3em;
+}
+#sentence-container {
+    border: 2px solid #52b788;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+}
+#sentence-input {
+    margin-top: 2em;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}

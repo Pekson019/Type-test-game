@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentence Spelling Game</title>
+    <style>
+        #sentence-container {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #input-container {
+            text-align: center;
+        }
+
+        #result {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        #timer {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #speed {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sentence-container"></div>
+    <div id="input-container">
+        <textarea id="sentence-input" rows="4" autofocus></textarea>
+        <button id="start-button" onclick="startRoundWithTimer()">Start</button>
+    </div>
+    <div id="result"></div>
+    <div id="timer"></div>
+    <div id="speed"></div>
+
+    <script src="game.js"></script>
+</body>
+</html>
